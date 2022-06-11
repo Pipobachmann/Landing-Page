@@ -1,0 +1,19 @@
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    height: 45px;
+}
+
+.header-right {
+    display: flex;
+    gap: 15px;
+}
+
