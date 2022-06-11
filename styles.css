@@ -1,19 +1,27 @@
 body {
     font-family: 'Comic Neue', cursive;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 18px;
+    background-color: #1F2937; /* Unnötig, da body Hintergrund farbig? */
+    color: #E5E7EB;
 }
 
 #logo {
-    height: 45px;
+    height: 35px;
 }
 
 .header-right {
     display: flex;
-    gap: 15px;
+    gap: 18px;
 }
 
+.header-link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
