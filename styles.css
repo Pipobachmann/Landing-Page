@@ -5,11 +5,13 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 18px;
     background-color: #1F2937; /* Unnötig, da body Hintergrund farbig? */
     color: #E5E7EB;
+    margin-top: 20px;
+    margin: 20px 250px 200px 250px
 }
 
 #logo {
@@ -27,16 +29,51 @@ body {
 }
 
 .hero-section {
-    /* Styling einfügen */
-}
-
-.hero-right {
-    /* Styling einfügen */
-}
-
-.hero-left{
-    /* Styling einfügen */
-}
-.hero-img{
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    gap: 70px;
     height: 300px;
+    margin: 200px 250px
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-width: 400px;
+    max-width: 600px;
+    height: 300px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.hero-p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.cta {
+    background-color: #3882f6;
+    border: none;
+}
+
+#hero-button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.hero-img {
+    height: 100%;
+    border-radius: 10px;
 }
