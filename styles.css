@@ -1,8 +1,10 @@
 body {
     font-family: 'Comic Neue', cursive;
     background-color: #1F2937;
+    margin: 0;
+    padding: 0;
 }
-
+/*header-styling*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -11,7 +13,7 @@ body {
     background-color: #1F2937; /* Unnötig, da body Hintergrund farbig? */
     color: #E5E7EB;
     margin-top: 20px;
-    margin: 20px 250px 200px 250px
+    margin: 20px 200px 80px 200px
 }
 
 #logo {
@@ -27,14 +29,15 @@ body {
     text-decoration: none;
     color: #E5E7EB;
 }
-
+/*hero-section styling*/
 .hero-section {
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
     gap: 70px;
-    height: 300px;
-    margin: 200px 250px
+    height: 200px;
+    margin: 80px 200px;
+    padding-bottom: 0;
 }
 
 .hero-left {
@@ -42,8 +45,8 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    min-width: 400px;
-    max-width: 600px;
+    min-width: 350px;
+    max-width: 500px;
     height: 300px;
 }
 
@@ -76,4 +79,43 @@ body {
 .hero-img {
     height: 100%;
     border-radius: 10px;
+}
+/*info-section styling*/
+#info-section {
+    margin: 200px 0; 
+    background: white;
+    font-size: 26px;
+    font-weight: bolder;
+    columns: #1F2937;
+}
+
+h2.img-section {
+    padding-top: 30px;
+}
+
+.img-section {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 150px;
+}
+
+.img-box {
+    text-align: center;
+    font-size: 18px;
+    max-width: 250px;
+    padding-bottom: 60px;
+}
+
+.jiggy-img {
+    height: 180px;
+    width: 180px;
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+
+.img-box p {
+    height: 50px;
+    max-width: 180px;
 }
