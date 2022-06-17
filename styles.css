@@ -13,7 +13,8 @@ body {
     background-color: #1F2937; /* Unnötig, da body Hintergrund farbig? */
     color: #E5E7EB;
     margin-top: 20px;
-    margin: 20px 200px 80px 200px
+    margin: 20px 200px 50px 200px;
+    padding: 0;
 }
 
 #logo {
@@ -36,7 +37,7 @@ body {
     color: #F9FAF8;
     gap: 70px;
     height: 200px;
-    margin: 80px 200px;
+    margin: 50px 200px;
     padding-bottom: 0;
 }
 
@@ -66,6 +67,7 @@ body {
 .cta {
     background-color: #3882f6;
     border: none;
+    cursor: pointer;
 }
 
 #hero-button {
@@ -82,11 +84,14 @@ body {
 }
 /*info-section styling*/
 #info-section {
-    margin: 200px 0; 
+    margin: 200px 0 0 0; 
     background: white;
     font-size: 26px;
     font-weight: bolder;
     columns: #1F2937;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 h2.img-section {
@@ -94,11 +99,11 @@ h2.img-section {
 }
 
 .img-section {
-    margin: 50px 50px;
+    margin: 50px 50px 0 50px;
     display: flex;
     justify-content: center;
     align-items: baseline;
-    gap: 150px;
+    gap: 100px;
 }
 
 .img-box {
@@ -118,4 +123,37 @@ h2.img-section {
 .img-box p {
     height: 50px;
     max-width: 180px;
+}
+
+#quote-section {
+    margin-top: 0;
+    background-color: #E5E7EB;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+}
+
+.caption {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.cite-link {
+    text-decoration: none;
+    color: #1F2937;
+    font-style: normal;
 }
