@@ -15,7 +15,7 @@ body {
     margin-top: 20px;
     margin: 20px 200px 50px 200px;
     padding: 0;
-    gap: 850px;
+    gap: 750px;
 }
 
 #logo {
@@ -30,6 +30,7 @@ body {
 .header-link {
     text-decoration: none;
     color: #E5E7EB;
+    white-space: nowrap;
 }
 /*hero-section styling*/
 .hero-section {
@@ -187,6 +188,8 @@ h2.img-section {
 
 .cta-text h3 {
     margin: 0;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .cta-text p {
@@ -197,8 +200,20 @@ h2.img-section {
     padding: 8px 20px;
     border: solid #F9FAF8;
     border-radius: 5px;
+    border-width: 2px;
     color: #F9FAF8;
     font-weight: bold;
     margin: 0;
     white-space: nowrap;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    margin: 0;
+    padding-top: 40px;
 }
